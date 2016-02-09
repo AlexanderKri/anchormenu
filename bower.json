@@ -1,0 +1,8 @@
+{
+  "name": "fantasy.anchorMenu",
+  "version": "0.0.1",
+  "main":  "dist/fantasy.anchorMenu.js",
+  "dependencies": {
+      "jquery": ">=2.1.3"
+  }
+}
