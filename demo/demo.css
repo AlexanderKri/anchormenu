@@ -1,0 +1,71 @@
+html {
+  font-size: 100%;
+
+  margin: 0;
+}
+
+body {
+  font-family: 'Play', sans-serif;
+
+  margin: 0;
+}
+
+/*
+ * nav
+ */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+
+  background-color: orange;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+
+  text-align: center;
+}
+
+.nav li a {
+  font-size: 1.1em;
+
+  display: block;
+
+  padding: 7px 10px;
+
+  text-decoration: none;
+
+  color: maroon;
+  background-color: chocolate;
+}
+
+
+/*
+ * sections
+ */
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.first {
+  background-color: lightgreen;
+}
+.second {
+  background-color: lightblue;
+}
+.third {
+  background-color: pink;
+}
+.fourth {
+  background-color: aliceblue;
+}

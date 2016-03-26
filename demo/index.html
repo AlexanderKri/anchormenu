@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>anchormenu</title>
+  <link href="https://fonts.googleapis.com/css?family=Play:400,700&subset=latin,cyrillic-ext,cyrillic" rel="stylesheet" type="text/css"></link>
+  <link rel="stylesheet" href="demo.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="../dist/miso.anchorMenu.js"></script>
+</head>
+<body>
+
+  <nav>
+    <ul class="nav">
+      <li><a href="#home" title="">Home</a></li>
+      <li><a href="#portfolio" title="">Portfolio</a></li>
+      <li><a href="#aboutus" title="">About Us</a></li>
+      <li><a href="#contacts" title="">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="first"></section>
+  <section id="portfolio" class="second"></section>
+  <section id="aboutus" class="third"></section>
+  <section id="contacts" class="fourth"></section>
+
+
+  <script>
+
+   $(function () {
+      $('.nav').anchorMenu();
+   });
+
+  </script>
+
+</body>
+</html>
+
