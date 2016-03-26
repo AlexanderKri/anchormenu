@@ -1,6 +1,6 @@
 {
   "name": "anchorMenu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main":  "dist/miso.anchorMenu.js",
   "dependencies": {
       "jquery": ">=2.1.3"
