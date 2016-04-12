@@ -3,7 +3,7 @@
 
 Bower
 ```
-bower install fantasy.anchorMenu
+bower install anchorMenu
 ```
 
 Классический плагин для перехвата события при клике на ссылку с якорем.
