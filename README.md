@@ -15,7 +15,8 @@ $(function () {
    level: '> li > a',
    padding: 55,
    speed: 100,
-   localstr: false
+   localstr: false,
+   save_hash: false
  });
 });
 ```
