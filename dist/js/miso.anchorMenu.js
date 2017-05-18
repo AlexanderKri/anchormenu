@@ -6,8 +6,8 @@
       level: 'a', // уровень вложенности для ссылки
       padding: 100, // отступ от начала документа
       speed: 'slow', // скорость прокрутки
-      localstr: false // запись в localStorage
-
+      localstr: false, // запись в localStorage
+      save_hash: false // сохранить якорь в адресной строке
     }, options||{});
 
 
@@ -44,7 +44,18 @@
 
       $(this).on('click', settings.level, function () {
 
+        if (settings.save_hash)
+          window.location.hash = '';
+
         var target = $(this).attr('href');
+
+        if (settings.save_hash) {
+
+          setTimeout(function() {
+           window.location.hash = target;
+          }, 0);
+
+        }
 
         /**
          * [initialPage определение главной страницы]
